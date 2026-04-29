@@ -1,10 +1,10 @@
-# Munder Difflin Multi-Agent System Project
+# Beaver's Choice Paper Company Multi-Agent System Project
 
-Welcome to the starter code repository for the **Munder Difflin Paper Company Multi-Agent System Project**! This repository contains the starter code and tools you will need to design, build, and test a multi-agent system that supports core business operations at a fictional paper manufacturing company.
+Welcome to the starter code repository for the **Beaver's Choice Paper Company Paper Company Multi-Agent System Project**! This repository contains the starter code and tools you will need to design, build, and test a multi-agent system that supports core business operations at a fictional paper manufacturing company.
 
 ## Project Context
 
-You’ve been hired as an AI consultant by Munder Difflin Paper Company, a fictional enterprise looking to modernize their workflows. They need a smart, modular **multi-agent system** to automate:
+You’ve been hired as an AI consultant by Beaver's Choice Paper Company Paper Company, a fictional enterprise looking to modernize their workflows. They need a smart, modular **multi-agent system** to automate:
 
 - **Inventory checks** and restocking decisions
 - **Quote generation** for incoming sales inquiries
@@ -51,13 +51,13 @@ For other options like pydantic-ai or npcsh[lite], refer to their documentation.
 
 Add your OpenAI-compatible API key:
 
-`UDACITY_OPENAI_API_KEY=your_openai_key_here`
+`VOCAREUM_API_KEY=your_vocareum_key_here`
 
 This project uses a custom OpenAI-compatible proxy hosted at https://openai.vocareum.com/v1.
 
 ## How to Run the Project
 
-Start by defining your agents in the `"YOUR MULTI AGENT STARTS HERE"` section inside `template.py`. Once your agent team is ready:
+Agents are already implemented in `project_starter.py`. To run:
 
 1. Run the `run_test_scenarios()` function at the bottom of the script.
 2. This will simulate a series of customer requests.
@@ -86,7 +86,7 @@ Output will include:
 
 Make sure to submit the following files:
 
-1. Your completed `template.py` or `project_starter.py` with all agent logic
+1. Your completed `project_starter.py` with all agent logic
 2. A **workflow diagram** describing your agent architecture and data flow
 3. A `README.txt` or `design_notes.txt` explaining how your system works
 4. Outputs from your test run (like `test_results.csv`)
