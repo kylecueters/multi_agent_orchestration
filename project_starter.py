@@ -387,15 +387,10 @@ def get_supplier_delivery_date(input_date_str: str, quantity: int) -> str:
     Returns:
         str: Estimated delivery date in ISO format (YYYY-MM-DD).
     """
-    # Debug log (comment out in production if needed)
-    print(f"FUNC (get_supplier_delivery_date): Calculating for qty {quantity} from date string '{input_date_str}'")
-
     # Attempt to parse the input date
     try:
         input_date_dt = datetime.fromisoformat(input_date_str.split("T")[0])
     except (ValueError, TypeError):
-        # Fallback to current date on format error
-        print(f"WARN (get_supplier_delivery_date): Invalid date format '{input_date_str}', using today as base.")
         input_date_dt = datetime.now()
 
     # Determine delivery delay based on quantity
@@ -979,5 +974,4 @@ def run_test_scenarios(limit: int = None):
 
 
 if __name__ == "__main__":
-    # Change limit=1 to a higher number (or remove it) to run more requests
-    results = run_test_scenarios(limit=1)
+    results = run_test_scenarios()
