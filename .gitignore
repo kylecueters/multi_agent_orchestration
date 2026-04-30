@@ -18,9 +18,6 @@ build/
 venv/
 env/
 
-# test output
-test_results.csv
-
 # OS
 .DS_Store
 Thumbs.db
